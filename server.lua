@@ -3,8 +3,8 @@ ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 
-RegisterServerEvent('akira:locationpay')
-AddEventHandler('akira:locationpay', function(price)
+RegisterServerEvent('snox:locationpay')
+AddEventHandler('snox:locationpay', function(price)
         
     local _source = source
     local xPlayer = ESX.GetPlayerFromId(source)
